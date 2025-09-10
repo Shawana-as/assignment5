@@ -31,3 +31,5 @@ Useful → less code, better performance.
 preventDefault() → stops default action (form submit, link open).
 
 stopPropagation() → stops event from going to parent.
+
+
