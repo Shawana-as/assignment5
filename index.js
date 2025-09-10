@@ -51,6 +51,7 @@ document.addEventListener('click', function(event) {
     }
 });
 
+
 function addToCallHistory(serviceName, number) {
     const now = new Date();
     const timeString = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: true });
