@@ -27,7 +27,6 @@ prepend() → adds at the start.
 insertBefore() → adds before another element.
 
 Example:
-
 let newDiv = document.createElement("div");
 newDiv.textContent = "Hello World!";
 document.body.appendChild(newDiv);
@@ -55,7 +54,6 @@ You have many child elements (better performance).
 New child elements are added dynamically (no need to add listeners again).
 
 Example:
-
 document.getElementById("list").addEventListener("click", function(e) {
   if (e.target.tagName === "LI") {
     alert("You clicked on " + e.target.textContent);
@@ -74,7 +72,6 @@ Example: Stops a link from opening or a form from submitting.
 stopPropagation() → Stops the event bubbling (event will not go up to parent elements).
 
 Example:
-
 link.addEventListener("click", function(e) {
   e.preventDefault(); // stops link opening
   e.stopPropagation(); // stops bubbling to parent
